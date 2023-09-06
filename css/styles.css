@@ -10,6 +10,7 @@
     height: 174px;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .content-nav--logo{
@@ -38,3 +39,63 @@
     border-radius: 50px;
     border: none;
 }
+
+
+/**/
+.content-promotion{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.content-information{
+    width:45%;
+    text-align: end;
+
+}
+
+.padel-intro > img{
+    width: 25rem;
+}
+
+.content-information > h1{
+    font-size: 3.13rem;
+}
+
+.content-information > p{
+    font-weight: 500;
+    margin: 18px 0 28px 0;
+    line-height: 26.01px;
+
+}
+
+/**/
+.content-info-pros{
+    background-color: #8B48BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 23.7vh;
+    flex-wrap: wrap;
+}
+.content-info--title{
+    width: 35%;
+}
+
+.content-info--title > h2{
+   font-size: 2.25rem;
+   color: white;
+}
+
+.content-info--description{
+    width: 35%;
+    margin-left: 3%;
+
+ }
+.content-info--description> p{
+    color: white;
+    line-height: 24.18px;
+ }
