@@ -152,7 +152,9 @@ margin-bottom: 20px;
         justify-content: center;
         flex-direction: column;
     }
-
+    .padel-intro > img{
+        width: 20rem;
+    }
     .content-information {
         width: 100%;
     }
