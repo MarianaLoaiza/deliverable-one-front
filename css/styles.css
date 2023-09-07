@@ -38,6 +38,8 @@
     height: 44px;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
+    margin-bottom: 30px;
 }
 
 
@@ -79,7 +81,6 @@
     justify-content: center;
     align-items: center;
     height: 23.7vh;
-    flex-wrap: wrap;
 }
 .content-info--title{
     width: 35%;
@@ -128,4 +129,55 @@ margin-bottom: 20px;
     margin-top: 21px;
     color:  #B9B9C1;
     font-weight: 500;
-     }
+}
+
+@media screen and (max-width: 800px) {
+    .content-nav{
+        width: 80%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .content-nav--list{
+      display: none;
+    }
+    .content-nav--menu{
+        display: block;
+    }
+
+    .button-nav{
+        display: none;
+    }
+   /**/
+    .content-promotion{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .content-information {
+        width: 100%;
+    }
+
+    .padel-intro{
+       margin: auto;
+    }
+
+    /**/
+    .content-info-pros{
+        flex-direction: column;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 4%;
+        background-color: #3CDDF3;
+
+    }
+    .content-info--title, .content-info--description{
+        width: 100%;
+    }
+
+    .content-info article:nth-child(1) {
+        width: 100%;
+    }
+    .content-info article:nth-child(1n+2) {
+       display: none;
+    }
+}
