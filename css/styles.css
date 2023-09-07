@@ -54,9 +54,6 @@
 
 .seccion-tres article {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
 }
 
 .seccion-tres p {
