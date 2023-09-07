@@ -22,8 +22,8 @@
 }
 
 .content-nav--list > li{
-   margin-right: 28px;
-   list-style: none;
+    margin-right: 28px;
+    list-style: none;
 }
 .content-nav--menu{
     display: none;
@@ -87,45 +87,45 @@
 }
 
 .content-info--title > h2{
-   font-size: 2.25rem;
-   color: white;
+    font-size: 2.25rem;
+    color: white;
 }
 
 .content-info--description{
     width: 35%;
     margin-left: 3%;
 
- }
+}
 .content-info--description> p{
     color: white;
     line-height: 24.18px;
- }
+}
 
- /**/
- .content-info {
-   display: flex;
-   text-align: center;
-   justify-content: space-evenly;
-   align-items: center;
-   margin: 75px;
-   flex-wrap: wrap;
- }
- .content-info  article{
-    width: 25%;
-  }
-  .content-info-month {
+/**/
+.content-info {
+    display: flex;
     text-align: center;
- }
- .content-info-month > h2{
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 75px;
+    flex-wrap: wrap;
+}
+.content-info  article{
+    width: 25%;
+}
+.content-info-month {
+    text-align: center;
+}
+.content-info-month > h2{
     font-weight: 700;
     font-size: 2.45rem;
- }
+}
 
- .content-info--avatar{
+.content-info--avatar{
 margin-bottom: 20px;
- }
+}
 
- .content-info > article > p{
+.content-info > article > p{
     margin-top: 21px;
     color:  #B9B9C1;
     font-weight: 500;
@@ -138,7 +138,7 @@ margin-bottom: 20px;
         margin: auto;
     }
     .content-nav--list{
-      display: none;
+    display: none;
     }
     .content-nav--menu{
         display: block;
@@ -147,7 +147,7 @@ margin-bottom: 20px;
     .button-nav{
         display: none;
     }
-   /**/
+    /**/
     .content-promotion{
         justify-content: center;
         flex-direction: column;
@@ -160,7 +160,7 @@ margin-bottom: 20px;
     }
 
     .padel-intro{
-       margin: auto;
+    margin: auto;
     }
 
     /**/
@@ -180,6 +180,6 @@ margin-bottom: 20px;
         width: 100%;
     }
     .content-info article:nth-child(1n+2) {
-       display: none;
+    display: none;
     }
 }
