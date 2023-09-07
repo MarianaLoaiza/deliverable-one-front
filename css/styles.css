@@ -46,20 +46,21 @@
     gap: 10px;
 }
 
-.seccion-tres {
+.seccion-cuatro {
     padding: 40px 0px;
     gap: 24px;
     font-weight: 500;
-}
-
-.seccion-tres article {
     display: flex;
 }
 
-.seccion-tres p {
+.seccion-cuatro div {
+    display: flex;
+}
+
+.seccion-cuatro p {
     color: #b3b2b7;
 }
 
-.seccion-tres h3 {
+.seccion-cuatro h3 {
     font-weight: 700;
 }
