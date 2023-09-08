@@ -102,6 +102,22 @@ footer {
     color: #fff;
     background-color: #1e1e26;
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ftrlogo .ftrsocial {
+    flex-direction: column;
+}
+.ftrrights {
+    order: 5;
+}
+.ftrnav {
+    gap: 50px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
 }
 
 .main {
