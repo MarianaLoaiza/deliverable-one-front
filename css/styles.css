@@ -47,6 +47,13 @@
     padding: 10px 25px;
 }
 
+.input {
+    width: 200px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+}
+
 /**/
 .content-promotion{
     display: flex;
@@ -69,10 +76,12 @@
     gap: 24px;
     margin: 0px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.tae-divs {
-    /* width: 50%; */
+.tae-articles {
+    width: 480px;
     display: flex;
 }
 
@@ -85,6 +94,19 @@
     color: #b3b2b7;
 }
 
+footer {
+    color: #fff;
+    background-color: #1e1e26;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+.footernav {
+    gap: 220px;
+}
 .padel-intro > img{
     width: 25rem;
 }
@@ -97,7 +119,6 @@
     font-weight: 500;
     margin: 18px 0 28px 0;
     line-height: 26.01px;
-
 }
 
 /**/
