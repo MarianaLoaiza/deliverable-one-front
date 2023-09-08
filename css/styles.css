@@ -83,20 +83,25 @@
 .tae-articles {
     width: 480px;
     display: flex;
+    align-items: flex-start;
 }
 
 .tae-title {
+    height: 44px;
     color: #323851;
     font-weight: 700;
+    padding: 15px 15px 15px;
 }
 
 .tae-text {
     color: #b3b2b7;
+    padding: 15px 15px 15px;
 }
 
 footer {
     color: #fff;
     background-color: #1e1e26;
+    display: flex;
 }
 
 .main {
@@ -105,8 +110,9 @@ footer {
 }
 
 .footernav {
-    gap: 220px;
+    /* gap: 220px; */
 }
+
 .padel-intro > img{
     width: 25rem;
 }
@@ -228,5 +234,26 @@ margin-bottom: 20px;
     }
     .content-info article:nth-child(1n+2) {
     display: none;
+    }
+
+    .tae-title {
+        background-color: rgba(139, 72, 191, 0.3);
+    }
+    .tae-articles {
+        width: 90%;
+    }
+
+    .tae-info {
+        justify-content: flex-end;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .footernav {
+        display: flex;
     }
 }
