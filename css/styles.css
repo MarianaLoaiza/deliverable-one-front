@@ -106,6 +106,18 @@ footer {
     flex-wrap: wrap;
     align-items: center;
 }
+.input {
+    gap: 10px;
+    padding: 10px;
+}
+
+.input:valid {
+    background-color: rgb(147, 240, 147);
+}
+
+.input:focus:invalid {
+    background-color: rgb(240, 117, 117);
+}
 
 .ftrlogo .ftrsocial {
     flex-direction: column;
