@@ -8,7 +8,7 @@
     display: flex;
     width: 100%;
     height: 174px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -22,8 +22,8 @@
 }
 
 .content-nav--list > li{
-   margin-right: 28px;
-   list-style: none;
+    margin-right: 28px;
+    list-style: none;
 }
 .content-nav--menu{
     display: none;
@@ -42,6 +42,17 @@
     margin-bottom: 30px;
 }
 
+.buttonsmall {
+    width: 73px;
+    padding: 10px 25px;
+}
+
+.input {
+    width: 200px;
+    height: 44px;
+    border-radius: 50px;
+    border: none;
+}
 
 /**/
 .content-promotion{
@@ -59,6 +70,61 @@
 
 }
 
+.tae-info {
+    width: 100%;
+    padding: 40px 0px 40px 0px;
+    gap: 24px;
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tae-articles {
+    width: 480px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.tae-title {
+    height: 44px;
+    color: #323851;
+    font-weight: 700;
+    padding: 15px 15px 15px;
+}
+
+.tae-text {
+    color: #b3b2b7;
+    padding: 15px 15px 15px;
+}
+
+footer {
+    color: #fff;
+    background-color: #1e1e26;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ftrlogo .ftrsocial {
+    flex-direction: column;
+}
+.ftrrights {
+    order: 5;
+}
+.ftrnav {
+    gap: 50px;
+    display: flex;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
 .padel-intro > img{
     width: 25rem;
 }
@@ -71,14 +137,13 @@
     font-weight: 500;
     margin: 18px 0 28px 0;
     line-height: 26.01px;
-
 }
 
 /**/
 .content-info-pros{
     background-color: #8B48BF;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 23.7vh;
 }
@@ -87,19 +152,19 @@
 }
 
 .content-info--title > h2{
-   font-size: 2.25rem;
-   color: white;
+    font-size: 2.25rem;
+    color: white;
 }
 
 .content-info--description{
     width: 35%;
     margin-left: 3%;
 
- }
+}
 .content-info--description> p{
     color: white;
     line-height: 24.18px;
- }
+}
 
  /**/
  .content-info {
@@ -117,15 +182,25 @@
   }
   .content-info-month {
     text-align: center;
- }
- .content-info-month > h2{
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 75px;
+    flex-wrap: wrap;
+}
+.content-info  article{
+    width: 25%;
+}
+.content-info-month {
+    text-align: center;
+}
+.content-info-month > h2{
     font-weight: 700;
     font-size: 2.45rem;
- }
+}
 
- .content-info--avatar{
+.content-info--avatar{
 margin-bottom: 20px;
- }
+}
 
  .content-info > article > p{
     margin: 21px 5px;
@@ -140,16 +215,15 @@ margin-bottom: 20px;
         margin: auto;
     }
     .content-nav--list{
-      display: none;
+    display: none;
     }
     .content-nav--menu{
         display: block;
     }
-
     .button-nav{
         display: none;
     }
-   /**/
+    /**/
     .content-promotion{
         justify-content: center;
         flex-direction: column;
@@ -160,28 +234,85 @@ margin-bottom: 20px;
     .content-information {
         width: 100%;
     }
-
     .padel-intro{
-       margin: auto;
+    margin: auto;
     }
-
     /**/
     .content-info-pros{
         flex-direction: column;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding: 0 4%;
         background-color: #3CDDF3;
-
     }
     .content-info--title, .content-info--description{
         width: 100%;
     }
-
     .content-info article:nth-child(1) {
         width: 100%;
     }
     .content-info article:nth-child(1n+2) {
-       display: none;
+    display: none;
+    }
+    .tae-title {
+        background-color: rgba(139, 72, 191, 0.3);
+    }
+    .tae-articles {
+        width: 90%;
+    }
+    .tae-info {
+        justify-content: flex-end;
+    }
+    .preftrtitle{
+        padding: 40px 50px;
+    }
+    .preftr.button {
+        background-color: #232c50;
+        color: #fff;
+        padding: 10px;
+    }
+    footer {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    footer p {
+        margin: 12px;
+    }
+    .ftrnav {
+        gap: 150px;
+        display: flex;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    .ftrcontact {
+        width: 100%;
+        padding: 10px;
+    }
+    .ftrform {
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        gap: 10px;
+    }
+    .ftrsocial {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 50px;
+        margin: 25px;
+    }
+    .ftrlogo {
+        padding: 10px;
+    }
+    .ftrrights {
+        color: #8c8c94;
+        padding: 10px;
+        order: 0;
+        align-self: auto;
+    }
+    .input {
+        width: 100%;
+        gap: 10px;
+        padding: 10px;
     }
 }
