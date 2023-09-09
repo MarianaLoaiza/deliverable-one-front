@@ -121,7 +121,7 @@ footer {
     background-color: rgb(240, 117, 117);
 }
 footer p {
-    margin: 12px;
+    margin: 15px;
 }
 
 .ftrlogo .ftrsocial {
@@ -133,14 +133,17 @@ footer p {
     order: 5;
 }
 .ftrnav {
-    gap: 50px;
+    height: 80%;
+    gap: 150px;
     display: flex;
     align-items: flex-start;
-    padding: 10px;
+    align-self: center;
 }
 .ftrlogoysocial {
     height: 100%;
-    margin: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -301,9 +304,6 @@ margin-bottom: 20px;
         height: auto;
         flex-direction: column-reverse;
         align-items: center;
-    }
-    footer p {
-        margin: 12px;
     }
     .ftrnav {
         gap: 150px;
