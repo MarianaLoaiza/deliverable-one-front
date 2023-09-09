@@ -27,8 +27,10 @@ Para este trabajo se llevaron acabo los espacios reservados en clase y reuniones
 
  - Mariana Loaiza Llano
 
-![Captura de pantalla 2023-09-08 171903](https://github.com/MarianaLoaiza/deliverable-one-front/assets/59896197/438abb93-5239-430a-b38d-9be0340252c1)
+https://github.com/MarianaLoaiza/deliverable-one-front/assets/59896197/438abb93-5239-430a-b38d-9be0340252c1
 
 - Nico Castera
 
-![Captura de pantalla 2023-09-08 171903](https://github.com/MarianaLoaiza/deliverable-one-front/assets/59896197/be1837a3-7a7a-4a96-8ad7-6718317b1bc9)
+https://github.com/MarianaLoaiza/deliverable-one-front/assets/59896197/be1837a3-7a7a-4a96-8ad7-6718317b1bc9
+
+NOTA: Teniendo en cuenta que el trabajo se anexa en un archivo .zip por favor abrir las URLS en el navegador.
