@@ -23,7 +23,12 @@ Logrando los siguientes requisitos:
  El trabajo se dividio por secciones y sus respectivo responsive.
  Las partes enmarcadas resaltan el trabajo realizado. 
 
+Para este trabajo se llevaron acabo los espacios reservados en clase y reuniones adicionales para llevar a cabo la realizacion del trabajo, puediendo resolver dudas al igual que las dificultades.
+
  - Mariana Loaiza Llano
 
+![Captura de pantalla 2023-09-08 171903](https://github.com/MarianaLoaiza/deliverable-one-front/assets/59896197/438abb93-5239-430a-b38d-9be0340252c1)
 
 - Nico Castera
+
+![Captura de pantalla 2023-09-08 171903](https://github.com/MarianaLoaiza/deliverable-one-front/assets/59896197/be1837a3-7a7a-4a96-8ad7-6718317b1bc9)
